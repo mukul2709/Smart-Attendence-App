@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".swipe_card">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Absent" />
+
+        <Button
+            android:id="@+id/present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Present" />
+
+
+    </LinearLayout>
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line1"
+        android:layout_alignParentBottom="false"
+        android:background="#59FCE8FF"
+        app:rotation_degrees="15.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/line1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="513dp"
+        android:background="#D5B5DA"
+        android:gravity="center"
+        android:text="To mark absent Swipe Left"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#69F0AE"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/line1"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="510dp"
+        android:background="#DFBFE4"
+        android:gravity="center"
+        android:text=" To mark Present Swipe Right"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_above="@+id/line1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="591dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="homebutton"
+        android:text="HOME"
+        android:textSize="24sp"
+        app:backgroundTint="#536DFE" />
+
+</RelativeLayout>

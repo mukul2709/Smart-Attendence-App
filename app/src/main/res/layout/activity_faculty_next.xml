@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container"
+            >
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/browser_actions_bg_grey"
+                app:title="welcome ">
+
+                <TextView
+                    android:id="@+id/greetings"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="sans-serif-black"
+                    />
+
+                <TextView
+                    android:id="@+id/faculty"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="sans-serif-black" />
+            </androidx.appcompat.widget.Toolbar>
+
+
+            //android:text="Faculty"
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/faculty_menu" />
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">smartAttendance</string>
+    <string name="Message">not loaded</string>
+
+    <string-array name="year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="subject">
+        <item>Software Engineering</item>
+        <item>Compiler</item>
+        <item>Automata</item>
+        <item>Data Structures</item>
+        <item>Operating System</item>
+        <item>DBMS</item>
+    </string-array>
+    <string name="title_activity_faculty_next">faculty_next</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_attendance">view_attendance</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060040374030",
+    "project_id": "smartattendance-a3492",
+    "storage_bucket": "smartattendance-a3492.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060040374030:android:7ea0e7abea68102c3e095f",
+        "android_client_info": {
+          "package_name": "com.example.smartattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060040374030-l7it9kd1u5si47d4hjpm14ff4hmoui27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMjGngxpP0VeA6Yg02sqZOJVHugMd5-7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060040374030-l7it9kd1u5si47d4hjpm14ff4hmoui27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
